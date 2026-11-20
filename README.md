@@ -4,8 +4,8 @@ Exploratory data analysis of every flight that left New York City (EWR, JFK, LGA
 
 ## What this covers
 1. **EDA and data cleaning** (`01_EDA.ipynb`): data quality checks on all five tables, missing values, outliers (including an impossible 1,048 mph wind reading and bad airport coordinates in the source data), and feature preparation.
-2. **Cross-table joins** (`Cross Table joins.ipynb`): flights joined with airlines and airports to answer questions about carriers, hubs and destination time zones.
-3. **Business questions** (`Business Questions.ipynb`): 15 questions framed as an operations team or executive would ask them, from market share to "where should the CEO focus to cut delays by 10%?"
+2. **Cross-table joins** (`02_cross_table_joins.ipynb`): flights joined with airlines and airports to answer questions about carriers, hubs and destination time zones.
+3. **Business questions** (`03_business_questions.ipynb`): 15 questions framed as an operations team or executive would ask them, from market share to "where should the CEO focus to cut delays by 10%?"
 
 ## Key findings
 - United is the largest carrier (17.4% of departures); no single airline dominates all three airports.
